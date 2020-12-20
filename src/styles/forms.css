@@ -1,7 +1,13 @@
 #formDiv{
     text-align: center;
-    height: 50vh;
-    padding-top: 15%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    border: 2px solid rgb(235, 220, 220);
+    background-color: rgba(211, 243, 26, 0.877);
+    border-radius: 20px;
+    padding: 25px 60px 25px;
 }
 input{
     background-color: transparent;
@@ -12,12 +18,11 @@ input{
     text-align: center;
 }
 #btn{
-    background-color: transparent;
-    border: 1px solid white;
+    background-color: black;
+    border: 1px solid grey;
     border-radius: 10px;
     color: white;
-    padding: 9px;
-    width: 5vw;
+    padding: 10px;
 }
 #btn:hover{
     background-color: rgba(0, 0, 255, 0.849);

@@ -6,7 +6,7 @@ import Dashboard from "./Dashboard"
 class App extends React.Component{
     render(){
         return(
-            <div style={{backgroundColor:"indigo",height:"97vh"}}>
+            <div style={{backgroundColor:"black",height:"97vh"}}>
                 <BrowserRouter>
                     <Route exact path="/" component={Form} />
                     <Route path="/dashboard" component={Dashboard} />

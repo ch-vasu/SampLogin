@@ -36,7 +36,7 @@ class Form extends React.Component{
     render(){
         return(
             <div id="formDiv">
-                <h2 style={{color:"white"}}>Get In Buddy :)</h2>
+                <h2>Get In Buddy :)</h2>
                 <p style={{color:"orange"}}>{this.state.errorMsg}</p>
                 <input type="text" id="username" placeholder="Username" /><br/>
                 <input type="password" id="pass" placeholder="Password" /><br/>
